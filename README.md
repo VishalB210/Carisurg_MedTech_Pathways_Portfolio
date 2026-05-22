@@ -1,30 +1,21 @@
 # Carisurg_Week_0_Portfolio
-CariSurg Week 0 Portfolio – Gender Column Data Cleaning
-# Carisurg_Week_0_Portfolio
 
-## Week 0 Assignment - Data Cleaning
+CariSurg Week 0 Portfolio – Data Cleaning Assignments
 
-This repository contains my Week 0 assignment for the CariSurg MedTech Pathways Program.
+This repository contains my Week 0 submissions for the CariSurg MedTech Pathways Program.
 
-The task focused on cleaning the Gender column in the emergency triage dataset using Python and Pandas in Google Colab.
+## Assignments Completed
 
-## What was done
+### Assignment 1 – Gender Column Cleaning
 
-- Imported the dataset
-- Checked the dataset information
-- Examined the Gender column
-- Cleaned inconsistent gender values
-- Converted Gender values into numeric format
-- Saved the cleaned dataset
+- Standardized gender values
+- Cleaned inconsistent entries
+- Exported cleaned dataset
 
-## Files Included
+### Assignment 2 – Pulse Column Cleaning
 
-- Carisurg_week0_task1.ipynb
-- EmergencyTriageDataset_Cleaned.csv
-
-## Tools Used
-
-- Python
-- Pandas
-- Google Colab
-- GitHub
+- Converted pulse values to numeric format
+- Identified missing values
+- Removed out-of-range pulse values
+- Applied median imputation
+- Validated the cleaned dataset using summary statistics and visualization
