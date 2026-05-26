@@ -1,10 +1,10 @@
 # Carisurg_Week_0_Portfolio
 
-## CariSurg Week 0 Portfolio – Data Cleaning, Data Visualization and Clinical Context Assignments
+## CariSurg Week 0 Portfolio – Data Cleaning, Data Visualization, Clinical Context and Digital Triage System Design
 
 This repository contains my Week 0 submissions for the CariSurg MedTech Pathways Program.
 
-The assignments focused on developing fundamental data cleaning, data visualization, and clinical interpretation skills using Python, Pandas, NumPy, and Matplotlib. The goal was to identify inconsistencies, handle missing values, validate data quality, prepare datasets for analysis, create meaningful visualizations, and understand the clinical significance of healthcare data.
+The assignments focused on developing fundamental data cleaning, data visualization, clinical interpretation, and healthcare AI system design skills using Python, Pandas, NumPy, and Matplotlib. The goal was to identify inconsistencies, handle missing values, validate data quality, prepare datasets for analysis, create meaningful visualizations, understand the clinical significance of healthcare data, and design a digital triage workflow capable of supporting emergency department decision-making.
 
 ---
 
@@ -15,7 +15,8 @@ The assignments focused on developing fundamental data cleaning, data visualizat
 3. Assignment 3 – Data Visualization
 4. Assignment 4 – Pulse Rate Clinical Context
 5. Assignment 5 – Fraction of Inspired Oxygen (FiO₂) Clinical Context
-6. Screenshots and Visualizations
+6. Assignment 6 – Digital Emergency Triage System
+7. Screenshots and Visualizations
 
 ---
 
@@ -60,7 +61,7 @@ The Pulse column was converted to numeric format using Pandas. Invalid or non-nu
 
 Missing values were identified using data validation checks.
 
-**Result:**
+**Results:**
 
 - Missing values after numeric conversion: 44
 
@@ -70,7 +71,7 @@ A valid physiological pulse range of 40–170 beats per minute (bpm) was establi
 
 Values outside this range were considered unrealistic and replaced with NaN.
 
-**Result:**
+**Results:**
 
 - Out-of-range pulse values detected: 43
 
@@ -80,7 +81,7 @@ Missing values were replaced using the median pulse value.
 
 The median was selected because it is less sensitive to extreme values and outliers than the mean.
 
-**Result:**
+**Results:**
 
 - Median pulse value used: 90 bpm
 
@@ -172,7 +173,7 @@ The objective of this assignment was to explain the clinical significance of Pul
 
 ## Files
 
-- 06_Assignment_Clinical_Context.md
+- 06_Assignment4_Pulse_Clinical_Context.md
 
 ---
 
@@ -194,7 +195,31 @@ The objective of this assignment was to explain the clinical significance of Fra
 
 ## Files
 
-- 06_Assignment_Clinical_Context.md
+- 07_Assignment5_FiO2_Clinical_Context.md
+
+---
+
+# Assignment 6 – Digital Emergency Triage System
+
+## Objective
+
+The objective of this assignment was to design and justify a digital emergency triage algorithm capable of processing patient information and categorizing patients into risk levels.
+
+## Key Topics Covered
+
+- Patient Data Collection
+- Missing Data Handling
+- Risk Scoring
+- Vital Sign Assessment
+- Clinical Warning Signs
+- Threshold Justification
+- Algorithm Design Rationale
+- Human-AI Collaboration
+- Clinical Decision Support
+
+## Files
+
+- 08_Assignment6_Digital_Triage_System.md
 
 ---
 
@@ -233,6 +258,21 @@ The repository includes screenshots showing:
 
 - Pulse Distribution Histogram
 - Age vs Pulse Scatter Plot
+
+### Assignment 4 – Pulse Clinical Context
+
+- Clinical explanation and emergency triage relevance
+
+### Assignment 5 – FiO₂ Clinical Context
+
+- Clinical explanation and emergency triage relevance
+
+### Assignment 6 – Digital Emergency Triage System
+
+- Digital Emergency Triage System design
+- Risk scoring workflow
+- Threshold justification
+- Algorithm design rationale
 
 All screenshots are available in the **screenshots** folder.
 
