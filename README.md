@@ -1,4 +1,4 @@
-# Carisurg_Week_0_Portfolio
+# CariSurg_MedTech_Pathways_Portfolio
 
 ## CariSurg MedTech Pathways Portfolio – Data Cleaning, Data Visualization, Clinical Context, Digital Triage Design, and Research Proposal Development
 
@@ -11,7 +11,7 @@ The work in this repository focuses on developing foundational skills in healthc
 ## Repository Structure
 
 ```text
-Carisurg_Week_0_Portfolio/
+CariSurg_MedTech_Pathways_Portfolio/
 │
 ├── README.md
 ├── LICENSE
@@ -370,7 +370,7 @@ All screenshots are available in the `screenshots/` folder.
 
 Repository URL:
 
-https://github.com/VishalB210/Carisurg_Week_0_Portfolio
+https://github.com/VishalB210/CariSurg_MedTech_Pathways_Portfolio
 
 ---
 
