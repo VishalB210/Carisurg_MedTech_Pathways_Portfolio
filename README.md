@@ -30,7 +30,7 @@ Carisurg_Week_0_Portfolio/
 │   ├── Assignment5_Updated_SpO2_Clinical_Context.md
 │   ├── Assignment6_Digital_Triage_System.md
 │   ├── Week 1 Final Submission Vishal Baboolal.pdf
-│   └── Week_2_Updated_Proposal_Vishal_Baboolal.pdf
+│   └── Week 2 Updated Proposal Vishal Baboolal.pdf
 │
 ├── notebooks/
 │   ├── README.md
@@ -320,7 +320,7 @@ The updated proposal includes seven peer-reviewed sources related to AI-assisted
 
 ## Files
 
-* `docs/Week_2_Updated_Proposal_Vishal_Baboolal.pdf`
+* `docs/Week 2 Updated Proposal Vishal Baboolal.pdf`
 
 ---
 
