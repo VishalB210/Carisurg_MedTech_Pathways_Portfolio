@@ -1,10 +1,10 @@
 # Carisurg_Week_0_Portfolio
 
-## CariSurg Week 0 Portfolio – Data Cleaning, Data Visualization, Clinical Context and Digital Triage System Design
+## CariSurg MedTech Pathways Portfolio – Data Cleaning, Data Visualization, Clinical Context, Digital Triage Design, and Research Proposal Development
 
-This repository contains my Week 0 submissions for the CariSurg MedTech Pathways Programme.
+This repository contains my portfolio submissions for the CariSurg MedTech Pathways Programme 2026.
 
-The assignments focused on developing fundamental data cleaning, data visualization, clinical interpretation, and healthcare AI system design skills using Python, Pandas, NumPy, and Matplotlib. The goal was to identify inconsistencies, handle missing values, validate data quality, prepare datasets for analysis, create meaningful visualizations, understand the clinical significance of healthcare data, and design a digital triage workflow capable of supporting emergency department decision-making.
+The work in this repository focuses on developing foundational skills in healthcare data cleaning, data visualization, clinical interpretation, healthcare AI system design, research proposal writing, reference management, and professional documentation. The assignments use tools such as Python, Pandas, NumPy, Matplotlib, Google Colab, GitHub, and Zotero to support healthcare data analysis and emergency department triage decision-making.
 
 ---
 
@@ -29,7 +29,8 @@ Carisurg_Week_0_Portfolio/
 │   ├── Assignment5_FiO2_Clinical_Context.md
 │   ├── Assignment5_Updated_SpO2_Clinical_Context.md
 │   ├── Assignment6_Digital_Triage_System.md
-│   └── Week 1 Final Submission Vishal Baboolal.pdf
+│   ├── Week 1 Final Submission Vishal Baboolal.pdf
+│   └── Week_2_Updated_Proposal_Vishal_Baboolal.pdf
 │
 ├── notebooks/
 │   ├── README.md
@@ -51,8 +52,9 @@ Carisurg_Week_0_Portfolio/
 5. Assignment 5 – Fraction of Inspired Oxygen (FiO₂) Clinical Context
 6. Assignment 5 (Updated) – Oxygen Saturation (SpO₂) Clinical Context
 7. Assignment 6 – Digital Emergency Triage System
-8. Week 1 Preliminary Proposal
-9. Screenshots and Visualizations
+8. Week 1 Preliminary Research Proposal
+9. Week 2 Updated Proposal and Zotero Bibliography
+10. Screenshots and Visualizations
 
 ---
 
@@ -282,13 +284,43 @@ The objective of this assignment was to design and justify a digital emergency t
 
 ---
 
-# Week 1 Preliminary Proposal
+# Week 1 Preliminary Research Proposal
 
 The Week 1 preliminary proposal focused on AI-assisted emergency department triage decision support in a resource-constrained setting.
+
+## Key Topics Covered
+
+* AI-assisted emergency department triage
+* Risk-flagging support for triage nurses
+* Vital signs and presenting complaint data
+* Research gaps in AI triage implementation
+* Clinical usefulness and workflow integration
 
 ## Files
 
 * `docs/Week 1 Final Submission Vishal Baboolal.pdf`
+
+---
+
+# Week 2 Updated Proposal and Zotero Bibliography
+
+For Week 2, the preliminary research proposal was updated using Zotero for citation management and an automatically generated APA 7th edition bibliography.
+
+The updated proposal includes seven peer-reviewed sources related to AI-assisted emergency department triage, external validation, workflow integration, clinical usefulness, and Caribbean emergency department patient flow.
+
+## Key Updates
+
+* Expanded the proposal from five papers to seven peer-reviewed papers
+* Added Zotero-managed in-text citations
+* Generated an automatic APA 7th edition bibliography using Zotero
+* Strengthened the problem statement
+* Improved the gap analysis
+* Clarified the proposed data source and 12-week evaluation plan
+* Added focus on local validation, workflow fit, missing-data handling, and nurse-facing risk flags
+
+## Files
+
+* `docs/Week_2_Updated_Proposal_Vishal_Baboolal.pdf`
 
 ---
 
@@ -300,6 +332,8 @@ The Week 1 preliminary proposal focused on AI-assisted emergency department tria
 * Matplotlib
 * Google Colab
 * GitHub
+* Zotero
+* Microsoft Word
 
 ---
 
