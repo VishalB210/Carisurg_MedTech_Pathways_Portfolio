@@ -1,12 +1,12 @@
 # CariSurg MedTech Pathways Portfolio
 
-This repository contains my portfolio work for the CariSurg MedTech Pathways Programme 2026. It includes healthcare data cleaning, clinical data visualization, clinical context writing, digital triage workflow design, and research proposal development focused on AI-assisted emergency department triage.
+This repository contains my portfolio work for the CariSurg MedTech Pathways Programme 2026. It includes healthcare data cleaning, clinical data visualization, clinical context writing, digital triage workflow design, research proposal development, workflow mapping, stakeholder analysis, and AI safety/risk analysis focused on AI-assisted emergency department triage.
 
 ---
 
 ## Who This Project Is For
 
-This repository is intended for CariSurg tutors, reviewers, and anyone interested in beginner-friendly healthcare AI portfolio work. It is designed to show how emergency triage data can be cleaned, explored, documented, and connected to clinical decision-making.
+This repository is intended for CariSurg tutors, reviewers, and anyone interested in beginner-friendly healthcare AI portfolio work. It is designed to show how emergency triage data can be cleaned, explored, documented, connected to clinical decision-making, and developed into a practical healthcare AI proposal.
 
 ---
 
@@ -17,6 +17,10 @@ The project focuses on emergency department triage data and healthcare AI concep
 The Week 0 work includes cleaning gender and pulse data, creating clinical visualizations, explaining the clinical importance of vital signs, and designing a digital triage workflow.
 
 The Week 1 and Week 2 submissions develop a research proposal on AI-assisted emergency department triage in resource-constrained settings.
+
+The Week 3 submission expands the proposal by adding emergency department workflow mapping, AI plug-in points, workflow constraints, stakeholder analysis, a pilot evaluation plan, and an implementation timeline.
+
+The Week 4 submission adds ethics, safety, and risk awareness through a risk register, AI harm/near-miss case study, and risk analysis section focused on safe healthcare AI deployment.
 
 ---
 
@@ -40,7 +44,11 @@ Carisurg_MedTech_Pathways_Portfolio/
 │   ├── Assignment5_Updated_SpO2_Clinical_Context.md
 │   ├── Assignment6_Digital_Triage_System.md
 │   ├── Week 1 Final Submission Vishal Baboolal.pdf
-│   └── Week 2 Final Submission Vishal Baboolal.pdf
+│   ├── Week 2 Final Submission Vishal Baboolal.pdf
+│   ├── Week 3 Final Submission.pdf
+│   ├── Week 4 Final Submission.pdf
+│   ├── risk-register.md
+│   └── ai-harm-case.md
 │
 ├── notebooks/
 │   ├── README.md
@@ -49,6 +57,7 @@ Carisurg_MedTech_Pathways_Portfolio/
 │   └── Assignment3_Data_Visualization.ipynb
 │
 └── screenshots/
+    └── README.md
 ```
 
 ---
@@ -56,9 +65,10 @@ Carisurg_MedTech_Pathways_Portfolio/
 ## Main Contents
 
 * `notebooks/` contains the Python notebooks for data cleaning and visualization.
-* `docs/` contains clinical context write-ups, the digital triage system design, and research proposal submissions.
+* `docs/` contains clinical context write-ups, the digital triage system design, research proposal submissions, the Week 4 risk register, and the AI harm case study.
 * `data/` is reserved for datasets and includes instructions on where to place the dataset locally.
 * `screenshots/` contains visual evidence of notebook outputs and assignment work.
+* `requirements.txt` lists the Python packages used in the notebooks.
 
 ---
 
@@ -148,6 +158,36 @@ docs/Week 2 Final Submission Vishal Baboolal.pdf
 
 ---
 
+## Week 3 Final Submission
+
+The Week 3 final submission expanded the proposal into healthcare workflows and systems thinking.
+
+The final proposal includes an emergency department triage workflow map, AI plug-in points, workflow constraints, stakeholder analysis, pilot evaluation plan, and a 12-week implementation timeline.
+
+File:
+
+```text
+docs/Week 3 Final Submission.pdf
+```
+
+---
+
+## Week 4 Final Submission
+
+The Week 4 final submission focused on ethics, safety, and risk awareness in healthcare technology.
+
+The final proposal includes an AI safety risk register, top three risk memo, residual risk discussion, and a documented AI harm/near-miss case study on the Epic Sepsis Model.
+
+Files:
+
+```text
+docs/Week 4 Final Submission.pdf
+docs/risk-register.md
+docs/ai-harm-case.md
+```
+
+---
+
 ## Tools Used
 
 * Python
@@ -158,6 +198,23 @@ docs/Week 2 Final Submission Vishal Baboolal.pdf
 * GitHub
 * Zotero
 * Microsoft Word
+* Mermaid / workflow diagramming
+
+---
+
+## Skills Demonstrated
+
+* Healthcare data cleaning
+* Missing value handling
+* Clinical data visualization
+* Literature review writing
+* Zotero reference management
+* Emergency department workflow mapping
+* Stakeholder analysis
+* AI risk register development
+* Root-cause analysis
+* AI ethics and safety reasoning
+* Technical documentation
 
 ---
 
