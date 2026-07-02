@@ -1,25 +1,27 @@
 # Screenshots
 
-This folder contains screenshots documenting the cleaning, validation, and visualization processes completed during Week 0 of the CariSurg MedTech Pathways Program.
+This folder contains screenshots documenting the data cleaning, validation, and visualisation work completed during Week 0 of the CariSurg MedTech Pathways Programme.
 
+The screenshots support the notebooks in the `notebooks/` folder and provide visual evidence of the cleaning, validation, summary statistics, and clinical visualisation steps.
 
+---
 
-# Assignment 2 – Pulse Column Cleaning
+## Assignment 2 – Pulse Column Cleaning
 
-## A2_Pulse_Before_Cleaning.png
+### `A2_Pulse_Before_Cleaning.png`
 
-Shows the initial inspection of the Pulse column before any cleaning was performed. Frequency counts were reviewed to understand the distribution of values and identify unusual entries.
+Shows the initial inspection of the `Pulse` column before cleaning. Frequency counts were reviewed to understand the distribution of values and identify unusual or invalid entries.
 
-## A2_Pulse_Cleaning_Process.png
+### `A2_Pulse_Cleaning_Process.png`
 
-Shows the Pulse cleaning workflow, including:
+Shows the pulse-cleaning workflow, including:
 
 - Numeric conversion
 - Missing value detection
 - Out-of-range value identification
 - Median imputation
 
-## A2_Pulse_Summary_Statistics.png
+### `A2_Pulse_Summary_Statistics.png`
 
 Displays descriptive statistics after cleaning, including:
 
@@ -30,62 +32,57 @@ Displays descriptive statistics after cleaning, including:
 - Maximum value
 - Quartiles
 
-## A2_Final_Validation_Check.png
+### `A2_Final_Validation_Check.png`
 
-Shows the final validation stage confirming:
+Shows the final validation stage confirming that:
 
 - No missing values remain
-- Pulse values fall within the accepted physiological range (40–170 bpm)
+- Pulse values fall within the accepted physiological range of 40–170 bpm
 - The cleaned dataset is ready for analysis
 
+---
 
+## Assignment 3 – Data Visualisation
 
-# Assignment 3 – Data Visualization
+### `A3_Pulse_Histogram.png`
 
-## A3_Pulse_Histogram.png
+Histogram showing the distribution of pulse values within the emergency triage dataset.
 
-Histogram showing the distribution of pulse values within the Emergency Triage Dataset.
+**Clinical question:**  
+How are pulse rates distributed among emergency department patients?
 
-### Clinical Question
+**Clinical reference line:**  
+Tachycardia threshold = 100 bpm
 
-How are pulse rates distributed among Emergency Department patients?
-
-### Clinical Reference Line
-
-- Tachycardia Threshold = 100 bpm
-
-### Purpose
-
+**Purpose:**  
 To identify the overall distribution of pulse values and highlight patients whose heart rate exceeds the tachycardia threshold.
 
-## A3_Age_vs_Pulse_Scatter.png
+### `A3_Age_vs_Pulse_Scatter.png`
 
-Scatter plot showing the relationship between Age and Pulse.
+Scatter plot showing the relationship between age and pulse.
 
-### Clinical Question
+**Clinical question:**  
+Does age affect resting heart rate in emergency department patients?
 
-Does age affect resting heart rate in Emergency Department patients?
+**Clinical reference lines:**  
 
-### Clinical Reference Lines
+- Lower normal pulse = 60 bpm
+- Upper normal pulse = 100 bpm
 
-- Lower Normal Pulse = 60 bpm
-- Upper Normal Pulse = 100 bpm
+**Purpose:**  
+To explore whether any relationship exists between patient age and pulse rate while providing clinical context for normal heart-rate ranges.
 
-### Purpose
+---
 
-To explore whether any relationship exists between patient age and pulse rate while providing clinical context for normal heart rate ranges.
+## Summary
 
-
-
-# Summary
-
-These screenshots provide evidence of the complete workflow performed during Week 0:
+These screenshots provide evidence of the Week 0 workflow, including:
 
 - Data cleaning
 - Missing value handling
 - Validation checks
 - Summary statistics
-- Clinical data visualization
+- Clinical data visualisation
 - Interpretation of healthcare data
 
-The screenshots support the notebooks and cleaned datasets contained in the main repository.
+Together, these files support the Week 0 notebooks and demonstrate the process used to prepare and visualise healthcare-style triage data.
