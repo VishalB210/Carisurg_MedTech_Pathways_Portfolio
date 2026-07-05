@@ -1,0 +1,201 @@
+chief_complaint_column,body_system_family
+cc_abdominalcramping,Gastrointestinal
+cc_abdominaldistention,Gastrointestinal
+cc_abdominalpain,Gastrointestinal
+cc_abdominalpainpregnant,Gastrointestinal
+cc_abnormallab,General / constitutional / other
+cc_abscess,Skin / wound / infection
+cc_addictionproblem,Mental health / substance / toxicology
+cc_agitation,Mental health / substance / toxicology
+cc_alcoholintoxication,Mental health / substance / toxicology
+cc_alcoholproblem,Mental health / substance / toxicology
+cc_allergicreaction,Other / needs review
+cc_alteredmentalstatus,Neurologic
+cc_animalbite,Skin / wound / infection
+cc_ankleinjury,Musculoskeletal / trauma
+cc_anklepain,Musculoskeletal / trauma
+cc_anxiety,Mental health / substance / toxicology
+cc_arminjury,Musculoskeletal / trauma
+cc_armpain,Musculoskeletal / trauma
+cc_armswelling,Musculoskeletal / trauma
+cc_assaultvictim,Musculoskeletal / trauma
+cc_asthma,Respiratory
+cc_backpain,Musculoskeletal / trauma
+cc_bleeding/bruising,Skin / wound / infection
+cc_blurredvision,Neurologic
+cc_bodyfluidexposure,Other / needs review
+cc_breastpain,Musculoskeletal / trauma
+cc_breathingdifficulty,Respiratory
+cc_breathingproblem,Respiratory
+cc_burn,Skin / wound / infection
+cc_cardiacarrest,Cardiovascular
+cc_cellulitis,Skin / wound / infection
+cc_chestpain,Cardiovascular
+cc_chesttightness,Cardiovascular
+cc_chills,General / constitutional / other
+cc_coldlikesymptoms,Respiratory
+cc_confusion,Neurologic
+cc_conjunctivitis,Eye / ENT / oral
+cc_constipation,Gastrointestinal
+cc_cough,Respiratory
+cc_cyst,Skin / wound / infection
+cc_decreasedbloodsugar-symptomatic,Endocrine / metabolic
+cc_dehydration,Gastrointestinal
+cc_dentalpain,Eye / ENT / oral
+cc_depression,Mental health / substance / toxicology
+cc_detoxevaluation,Mental health / substance / toxicology
+cc_diarrhea,Gastrointestinal
+cc_dizziness,Neurologic
+cc_drug/alcoholassessment,Mental health / substance / toxicology
+cc_drugproblem,Mental health / substance / toxicology
+cc_dyspnea,Respiratory
+cc_dysuria,Respiratory
+cc_earpain,Eye / ENT / oral
+cc_earproblem,Eye / ENT / oral
+cc_edema,Other / needs review
+cc_elbowpain,Musculoskeletal / trauma
+cc_elevatedbloodsugar-nosymptoms,Endocrine / metabolic
+cc_elevatedbloodsugar-symptomatic,Endocrine / metabolic
+cc_emesis,Gastrointestinal
+cc_epigastricpain,Gastrointestinal
+cc_epistaxis,Other / needs review
+cc_exposuretostd,Genitourinary
+cc_extremitylaceration,Musculoskeletal / trauma
+cc_extremityweakness,Neurologic
+cc_eyeinjury,Eye / ENT / oral
+cc_eyepain,Eye / ENT / oral
+cc_eyeproblem,Eye / ENT / oral
+cc_eyeredness,Eye / ENT / oral
+cc_facialinjury,Musculoskeletal / trauma
+cc_faciallaceration,Musculoskeletal / trauma
+cc_facialpain,Musculoskeletal / trauma
+cc_facialswelling,Musculoskeletal / trauma
+cc_fall,Musculoskeletal / trauma
+cc_fall>65,Musculoskeletal / trauma
+cc_fatigue,General / constitutional / other
+cc_femaleguproblem,Genitourinary
+cc_fever,General / constitutional / other
+cc_fever-75yearsorolder,Eye / ENT / oral
+cc_fever-9weeksto74years,Eye / ENT / oral
+cc_feverimmunocompromised,General / constitutional / other
+cc_fingerinjury,Musculoskeletal / trauma
+cc_fingerpain,Musculoskeletal / trauma
+cc_fingerswelling,Musculoskeletal / trauma
+cc_flankpain,Gastrointestinal
+cc_follow-upcellulitis,Skin / wound / infection
+cc_footinjury,Musculoskeletal / trauma
+cc_footpain,Musculoskeletal / trauma
+cc_footswelling,Musculoskeletal / trauma
+cc_foreignbodyineye,Eye / ENT / oral
+cc_fulltrauma,Musculoskeletal / trauma
+cc_generalizedbodyaches,Other / needs review
+cc_gibleeding,Gastrointestinal
+cc_giproblem,Gastrointestinal
+cc_groinpain,Genitourinary
+cc_hallucinations,Mental health / substance / toxicology
+cc_handinjury,Musculoskeletal / trauma
+cc_handpain,Musculoskeletal / trauma
+cc_headache,Neurologic
+cc_headache-newonsetornewsymptoms,Neurologic
+cc_headache-recurrentorknowndxmigraines,Neurologic
+cc_headachere-evaluation,Neurologic
+cc_headinjury,Musculoskeletal / trauma
+cc_headlaceration,Musculoskeletal / trauma
+cc_hematuria,Respiratory
+cc_hemoptysis,Respiratory
+cc_hippain,Musculoskeletal / trauma
+cc_homicidal,Mental health / substance / toxicology
+cc_hyperglycemia,Endocrine / metabolic
+cc_hypertension,Cardiovascular
+cc_hypotension,Cardiovascular
+cc_influenza,Respiratory
+cc_ingestion,Mental health / substance / toxicology
+cc_insectbite,Skin / wound / infection
+cc_irregularheartbeat,Cardiovascular
+cc_jawpain,Musculoskeletal / trauma
+cc_jointswelling,Musculoskeletal / trauma
+cc_kneeinjury,Musculoskeletal / trauma
+cc_kneepain,Musculoskeletal / trauma
+cc_laceration,Musculoskeletal / trauma
+cc_leginjury,Musculoskeletal / trauma
+cc_legpain,Musculoskeletal / trauma
+cc_legswelling,Musculoskeletal / trauma
+cc_lethargy,Neurologic
+cc_lossofconsciousness,Neurologic
+cc_maleguproblem,Genitourinary
+cc_mass,Skin / wound / infection
+cc_medicalproblem,General / constitutional / other
+cc_medicalscreening,General / constitutional / other
+cc_medicationproblem,General / constitutional / other
+cc_medicationrefill,General / constitutional / other
+cc_migraine,Neurologic
+cc_modifiedtrauma,Musculoskeletal / trauma
+cc_motorcyclecrash,Skin / wound / infection
+cc_motorvehiclecrash,Skin / wound / infection
+cc_multiplefalls,Musculoskeletal / trauma
+cc_nasalcongestion,Respiratory
+cc_nausea,Gastrointestinal
+cc_nearsyncope,Cardiovascular
+cc_neckpain,Musculoskeletal / trauma
+cc_neurologicproblem,Neurologic
+cc_numbness,Neurologic
+cc_oralswelling,Eye / ENT / oral
+cc_otalgia,Eye / ENT / oral
+cc_other,General / constitutional / other
+cc_overdose-accidental,Mental health / substance / toxicology
+cc_overdose-intentional,Mental health / substance / toxicology
+cc_pain,Musculoskeletal / trauma
+cc_palpitations,Cardiovascular
+cc_panicattack,Mental health / substance / toxicology
+cc_pelvicpain,Genitourinary
+cc_poisoning,Mental health / substance / toxicology
+cc_post-opproblem,Other / needs review
+cc_psychiatricevaluation,Mental health / substance / toxicology
+cc_psychoticsymptoms,Mental health / substance / toxicology
+cc_rapidheartrate,Cardiovascular
+cc_rash,Skin / wound / infection
+cc_rectalbleeding,Gastrointestinal
+cc_rectalpain,Gastrointestinal
+cc_respiratorydistress,Respiratory
+cc_ribinjury,Musculoskeletal / trauma
+cc_ribpain,Musculoskeletal / trauma
+cc_seizure-newonset,Neurologic
+cc_seizure-priorhxof,Neurologic
+cc_seizures,Neurologic
+cc_shortnessofbreath,Respiratory
+cc_shoulderinjury,Musculoskeletal / trauma
+cc_shoulderpain,Musculoskeletal / trauma
+cc_sicklecellpain,Musculoskeletal / trauma
+cc_sinusproblem,Respiratory
+cc_skinirritation,Skin / wound / infection
+cc_skinproblem,Skin / wound / infection
+cc_sorethroat,Respiratory
+cc_stdcheck,Genitourinary
+cc_strokealert,Neurologic
+cc_suicidal,Mental health / substance / toxicology
+cc_suture/stapleremoval,Skin / wound / infection
+cc_swallowedforeignbody,Other / needs review
+cc_syncope,Cardiovascular
+cc_tachycardia,Cardiovascular
+cc_testiclepain,Genitourinary
+cc_thumbinjury,Musculoskeletal / trauma
+cc_tickremoval,Skin / wound / infection
+cc_toeinjury,Musculoskeletal / trauma
+cc_toepain,Musculoskeletal / trauma
+cc_trauma,Musculoskeletal / trauma
+cc_unresponsive,Neurologic
+cc_uri,Respiratory
+cc_urinaryfrequency,Respiratory
+cc_urinaryretention,Respiratory
+cc_urinarytractinfection,Respiratory
+cc_vaginalbleeding,Genitourinary
+cc_vaginaldischarge,Genitourinary
+cc_vaginalpain,Genitourinary
+cc_weakness,Neurologic
+cc_wheezing,Respiratory
+cc_withdrawal-alcohol,Mental health / substance / toxicology
+cc_woundcheck,Skin / wound / infection
+cc_woundinfection,Skin / wound / infection
+cc_woundre-evaluation,Skin / wound / infection
+cc_wristinjury,Musculoskeletal / trauma
+cc_wristpain,Musculoskeletal / trauma
