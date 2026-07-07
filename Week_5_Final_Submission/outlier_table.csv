@@ -1,0 +1,8 @@
+feature,rule,count,percent,min,max
+triage_vital_hr,Heart rate outside 30-220 bpm,1,0.0018141905988643169,32.0,221.0
+triage_vital_sbp,Systolic BP outside 50-260 mmHg,1,0.0018141905988643169,53.0,266.0
+triage_vital_dbp,Diastolic BP outside 30-160 mmHg,14,0.02539866838410043,27.0,189.0
+triage_vital_rr,Respiratory rate outside 5-60/min,4,0.0072567623954572676,8.0,66.0
+triage_vital_o2,Oxygen saturation outside 50-100%,0,0.0,62.0,99.0
+triage_vital_temp,Temperature outside 90-106 F,0,0.0,91.5,106.0
+triage_glucose,Glucose outside 20-1000 mg/dL,8,0.014513524790914535,16.0,1066.0

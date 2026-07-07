@@ -1,0 +1,11 @@
+Rank,Feature,Simple association with ESI,Clinical reasoning
+1,triage_vital_o2_device,-0.219,Patients needing supplemental oxygen are more likely to require urgent review; it has one of the strongest associations with lower ESI acuity level.
+2,triage_vital_o2,0.159,"Low oxygen saturation directly signals hypoxia and respiratory compromise, which should influence triage urgency."
+3,age,-0.238,Older adults have higher risk of deterioration and admission; age shows the strongest demographic association with ESI.
+4,cc_chestpain,-0.164,Chest pain may represent acute coronary syndrome and is one of the most common high-acuity complaints.
+5,cc_shortnessofbreath,-0.15,"Shortness of breath can indicate respiratory failure, heart failure, asthma/COPD exacerbation or sepsis."
+6,triage_vital_hr,-0.073,"Tachycardia or bradycardia can indicate shock, arrhythmia, pain, fever or physiological stress."
+7,triage_glucose,-0.111,Abnormal glucose can indicate diabetic emergencies or severe metabolic illness.
+8,cc_alteredmentalstatus,-0.132,"Altered mental status is clinically high risk and associated with urgent neurologic, toxicologic, septic or metabolic causes."
+9,triage_vital_rr,-0.056,Respiratory rate is an early marker of deterioration and respiratory/metabolic stress.
+10,cc_suicidal,-0.143,Suicidal ideation is a safety-critical presentation requiring urgent mental health risk assessment.
