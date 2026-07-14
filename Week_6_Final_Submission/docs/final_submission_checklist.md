@@ -1,0 +1,21 @@
+# Week 6 Final Submission Checklist
+
+- [x] Stratified random baseline included
+- [x] Logistic regression trained and evaluated
+- [x] Decision tree trained with bounded `max_depth`
+- [x] 80/20 stratified train/test split
+- [x] Random seed documented
+- [x] Accuracy, precision, recall and F1 reported per class
+- [x] Macro F1 and weighted F1 compared and explained
+- [x] Confusion matrix for logistic regression
+- [x] Confusion matrix for decision tree
+- [x] Primary metric justified
+- [x] Failure-mode reflection included
+- [x] Final report is three pages
+- [x] Executed notebook included
+- [x] Raw patient-level dataset excluded
+- [ ] Post confusion-matrix image to Discord
+- [ ] Record and post one-minute clinical explainer
+- [ ] Paste Loom/video link into `docs/loom_video_link.md`
+- [ ] Upload final files to GitHub
+- [ ] Add the supplied Week 6 update to the root repository README
