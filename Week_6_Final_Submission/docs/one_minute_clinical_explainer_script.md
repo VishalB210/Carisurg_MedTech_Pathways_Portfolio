@@ -5,13 +5,17 @@
 
 ## Spoken script
 
-Dr. Reyes, this model is intended to support the first triage decision by flagging patients who may need immediate attention.
+Hi, I’m Vishal Baboolal, and this project compares two baseline models for predicting Emergency Severity Index levels during triage.
 
-The number I care about most is how many genuinely Level 1 patients the system successfully catches. That matters more than the overall percentage correct because Level 1 cases are extremely rare, and a model can look good while still missing the sickest patients.
+The logistic regression model performed better overall. However, the most important result is in the first row, which represents the most critically ill patients.
 
-In the test set, logistic regression correctly identified 4 of 16 Level 1 patients. That means it missed 12. For a patient, that could mean delayed resuscitation or treatment during a life-threatening emergency.
+Out of 16 true ESI Level 1 patients, the model correctly identified only 4.
 
-The model performs better than random guessing overall, but it is not safe for deployment. My next step would be to address the class imbalance, study the missed critical cases, and validate any improved model locally before it is shown to triage staff.
+The other 12 critical patients were assigned to lower-priority categories, which could delay resuscitation or other life-saving treatment.
+
+The decision tree performed even worse, correctly identifying only 1 of the 16 critical cases.
+
+Therefore, although both models detected useful patterns, neither is safe for clinical use. The next step is to improve detection of rare critical cases and validate the model on local emergency department data.
 
 ## Recording checklist
 
