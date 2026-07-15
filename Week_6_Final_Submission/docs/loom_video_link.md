@@ -1,5 +1,5 @@
 # Week 6 Clinical Explainer Video
 
-**Video link:** PASTE YOUR LOOM OR VIDEO LINK HERE
+**Video link:** https://www.loom.com/share/3adc8e8c840c4724913abf5819eb745f
 
-The video was also posted to the CariSurg Discord channel.
+
