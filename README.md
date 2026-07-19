@@ -1,226 +1,38 @@
-# CariSurg MedTech Pathways Portfolio
+# Week 7 Interim Submission - Model Optimisation and Trade-offs
 
-This repository contains my portfolio work for the CariSurg MedTech Pathways Programme 2026. It includes healthcare data cleaning, clinical data visualization, clinical context writing, digital triage workflow design, research proposal development, workflow mapping, stakeholder analysis, and AI safety/risk analysis focused on AI-assisted emergency department triage.
+**Student:** Vishal Baboolal  
+**Selected complex model:** Random Forest
 
----
+## Submission contents
 
-## Who This Project Is For
+- `notebooks/week7_interim_random_forest_benchmark.ipynb`  
+  Executed notebook containing the Week 6 baselines, the Week 7 random forest and the initial benchmark.
 
-This repository is intended for CariSurg tutors, reviewers, and anyone interested in beginner-friendly healthcare AI portfolio work. It is designed to show how emergency triage data can be cleaned, explored, documented, connected to clinical decision-making, and developed into a practical healthcare AI proposal.
+- `docs/week7_draft_benchmark_table.md`  
+  GitHub-readable draft benchmark table and initial interpretation.
 
----
+- `docs/week7_draft_benchmark_table.csv`  
+  Machine-readable benchmark results.
 
-## Project Overview
+- `docs/week7_interim_summary.md`  
+  Short explanation of the model choice and initial trade-off.
 
-The project focuses on emergency department triage data and healthcare AI concepts.
+- `docs/random_forest_classification_report.csv`  
+  Per-class precision, recall and F1 values.
 
-The Week 0 work includes cleaning gender and pulse data, creating clinical visualizations, explaining the clinical importance of vital signs, and designing a digital triage workflow.
+- `docs/random_forest_feature_importance.csv`  
+  Complete random-forest feature-importance values.
 
-The Week 1 and Week 2 submissions develop a research proposal on AI-assisted emergency department triage in resource-constrained settings.
+- `docs/figures/random_forest_confusion_matrix.png`  
+  Confusion matrix for the complex model.
 
-The Week 3 submission expands the proposal by adding emergency department workflow mapping, AI plug-in points, workflow constraints, stakeholder analysis, a pilot evaluation plan, and an implementation timeline.
+- `docs/figures/random_forest_feature_importance.png`  
+  Top 15 global feature importances.
 
-The Week 4 submission adds ethics, safety, and risk awareness through a risk register, AI harm/near-miss case study, and risk analysis section focused on safe healthcare AI deployment.
+## Reproducibility
 
----
+The notebook reuses the Week 6 80/20 stratified split with `random_state=42`. The raw patient-level CSV is not included in the public submission.
 
-## Repository Structure
+## Interim status
 
-```text
-Carisurg_MedTech_Pathways_Portfolio/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-├── requirements.txt
-│
-├── data/
-│   └── README.md
-│
-├── docs/
-│   ├── README.md
-│   ├── Assignment4_Pulse_Clinical_Context.md
-│   ├── Assignment5_FiO2_Clinical_Context.md
-│   ├── Assignment5_Updated_SpO2_Clinical_Context.md
-│   ├── Assignment6_Digital_Triage_System.md
-│   ├── Week 1 Final Submission Vishal Baboolal.pdf
-│   ├── Week 2 Final Submission Vishal Baboolal.pdf
-│   ├── Week 3 Final Submission.pdf
-│   ├── Week 4 Final Submission.pdf
-│   ├── risk-register.md
-│   └── ai-harm-case.md
-│
-├── notebooks/
-│   ├── README.md
-│   ├── Assignment1_GenderCleaning.ipynb
-│   ├── Assignment2_PulseCleaning.ipynb
-│   └── Assignment3_Data_Visualization.ipynb
-│
-└── screenshots/
-    └── README.md
-```
-
----
-
-## Main Contents
-
-* `notebooks/` contains the Python notebooks for data cleaning and visualization.
-* `docs/` contains clinical context write-ups, the digital triage system design, research proposal submissions, the Week 4 risk register, and the AI harm case study.
-* `data/` is reserved for datasets and includes instructions on where to place the dataset locally.
-* `screenshots/` contains visual evidence of notebook outputs and assignment work.
-* `requirements.txt` lists the Python packages used in the notebooks.
-
----
-
-## Installation
-
-To run the notebooks locally, clone the repository and install the required Python packages:
-
-```bash
-git clone https://github.com/VishalB210/Carisurg_MedTech_Pathways_Portfolio.git
-cd Carisurg_MedTech_Pathways_Portfolio
-pip install -r requirements.txt
-```
-
-Alternatively, the notebooks can be opened and run in Google Colab.
-
----
-
-## How to Run the Notebooks
-
-1. Open a notebook from the `notebooks/` folder.
-2. Upload the required emergency triage dataset when prompted.
-3. Run the notebook cells from top to bottom.
-4. Review the cleaned outputs, summary statistics, and visualizations.
-
-Example notebooks:
-
-```text
-notebooks/Assignment1_GenderCleaning.ipynb
-notebooks/Assignment2_PulseCleaning.ipynb
-notebooks/Assignment3_Data_Visualization.ipynb
-```
-
----
-
-## Data Instructions
-
-The `data/` folder is intentionally kept empty except for its README file.
-
-Dataset files are not included in this repository. To run the notebooks, place the required dataset file in the `data/` folder locally, or upload the dataset directly when using Google Colab.
-
-Expected local structure:
-
-```text
-data/
-└── EmergencyTriageDataset_Reduced_Dirty.csv
-```
-
-Cleaned datasets generated during notebook execution should be saved locally or exported as needed, but they are not required to be stored in this repository.
-
----
-
-## Week 0 Work
-
-Week 0 focused on:
-
-* Cleaning inconsistent gender values
-* Cleaning pulse values and handling missing or unrealistic readings
-* Creating pulse distribution and age-versus-pulse visualizations
-* Explaining the clinical importance of pulse rate, FiO₂, and SpO₂
-* Designing a digital emergency triage workflow
-
----
-
-## Week 1 Final Submission
-
-The Week 1 final submission focused on an AI-assisted emergency department triage decision support proposal for a resource-constrained setting.
-
-File:
-
-```text
-docs/Week 1 Final Submission Vishal Baboolal.pdf
-```
-
----
-
-## Week 2 Final Submission
-
-The Week 2 final submission updated the research proposal using Zotero-managed citations and an automatically generated APA 7th edition bibliography.
-
-The final proposal includes seven peer-reviewed sources related to AI-assisted emergency department triage, external validation, workflow integration, clinical usefulness, and Caribbean emergency department patient flow.
-
-File:
-
-```text
-docs/Week 2 Final Submission Vishal Baboolal.pdf
-```
-
----
-
-## Week 3 Final Submission
-
-The Week 3 final submission expanded the proposal into healthcare workflows and systems thinking.
-
-The final proposal includes an emergency department triage workflow map, AI plug-in points, workflow constraints, stakeholder analysis, pilot evaluation plan, and a 12-week implementation timeline.
-
-File:
-
-```text
-docs/Week 3 Final Submission.pdf
-```
-
----
-
-## Week 4 Final Submission
-
-The Week 4 final submission focused on ethics, safety, and risk awareness in healthcare technology.
-
-The final proposal includes an AI safety risk register, top three risk memo, residual risk discussion, and a documented AI harm/near-miss case study on the Epic Sepsis Model.
-
-Files:
-
-```text
-docs/Week 4 Final Submission.pdf
-docs/risk-register.md
-docs/ai-harm-case.md
-```
-
----
-
-## Tools Used
-
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Google Colab
-* GitHub
-* Zotero
-* Microsoft Word
-* Mermaid / workflow diagramming
-
----
-
-## Skills Demonstrated
-
-* Healthcare data cleaning
-* Missing value handling
-* Clinical data visualization
-* Literature review writing
-* Zotero reference management
-* Emergency department workflow mapping
-* Stakeholder analysis
-* AI risk register development
-* Root-cause analysis
-* AI ethics and safety reasoning
-* Technical documentation
-
----
-
-## Author
-
-**Vishal Baboolal**
-Electrical & Computer Engineering Student
-The University of the West Indies, St. Augustine
-CariSurg MedTech Pathways Programme 2026
+This is an initial benchmark, not the final model recommendation. Hyperparameter tuning, deeper error analysis, the three-page cost-benefit memo and decision journal are reserved for the Week 7 final submission.
