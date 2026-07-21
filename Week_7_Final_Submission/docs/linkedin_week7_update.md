@@ -1,0 +1,3 @@
+# Week 7 LinkedIn Update
+
+This week I compared logistic regression, decision trees, random forest, LightGBM and XGBoost for an AI-assisted emergency department triage project. I chose an optimised LightGBM model over the simpler alternatives for a silent Phase 3 pilot because it produced the strongest balanced performance across the five triage levels while keeping measured training and inference costs low. The trade-off is reduced interpretability, so my recommendation is not live deployment: the model should first run beside a transparent logistic-regression reference while we evaluate critical errors, fairness, calibration and local clinical performance.
