@@ -1,0 +1,69 @@
+# Week 8 pinned configuration: one model, one seed, one set of parameters.
+seed: 42
+
+data:
+  # Patient-level data is private and must not be committed to GitHub.
+  path: data/data_cleaned_week5.csv
+  target: esi
+  valid_labels: [1, 2, 3, 4, 5]
+  required_columns:
+    - triage_vital_hr
+    - triage_vital_sbp
+    - triage_vital_dbp
+    - triage_vital_temp
+    - triage_vital_rr
+    - triage_vital_o2
+    - triage_glucose
+
+features:
+  demographics:
+    - age
+    - gender
+    - ethnicity
+    - race
+    - lang
+    - religion
+    - maritalstatus
+    - employstatus
+    - insurance_status
+  administrative:
+    - dep_name
+    - arrivalmode
+    - arrivalmonth
+    - arrivalday
+    - arrivalhour_bin
+  leakage:
+    - disposition
+    - previousdispo
+
+split:
+  test_size: 0.20
+  stratify: true
+
+model:
+  name: lightgbm
+  decision: "Optimised LightGBM selected in Week 7 for silent Phase 3 evaluation"
+  params:
+    objective: multiclass
+    num_class: 5
+    n_estimators: 300
+    learning_rate: 0.05
+    num_leaves: 31
+    max_depth: 10
+    min_child_samples: 30
+    subsample: 0.90
+    colsample_bytree: 0.90
+    reg_alpha: 0.10
+    reg_lambda: 1.00
+    class_weight:
+      1: 4.00
+      2: 1.25
+      3: 1.00
+      4: 1.25
+      5: 2.00
+
+outputs:
+  model_path: artifacts/optimised_lightgbm.joblib
+  metrics_path: outputs/training_metrics.json
+  classification_report_path: outputs/classification_report.csv
+  confusion_matrix_path: outputs/confusion_matrix.csv

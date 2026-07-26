@@ -1,0 +1,7 @@
+Winner,Model,Key Hyperparameters,Accuracy,Macro Precision,Macro Recall,Macro F1,ESI 1 Recall,Training Time (s),Inference Time per Prediction (ms)
+No,Logistic Regression,"StandardScaler; max_iter=1000; random_state=42",0.6667573696,0.5824990972,0.4629510850,0.4924858474,0.25,13.5813395310,0.0103246017
+No,Decision Tree,"max_depth=12; random_state=42",0.5847619048,0.4806262289,0.2947965008,0.3027209034,0.0625,0.3681301810,0.0010329558
+No,Random Forest,"n_estimators=200; class_weight=balanced_subsample; random_state=42",0.4965079365,0.4074097334,0.5568259643,0.3984362795,0.5,7.3006260830,0.0235466258
+No,LightGBM Base,"base LGBMClassifier; random_state=42",0.6725623583,0.5889586813,0.4363429882,0.4717699431,0.125,2.4560797990,0.0324955082
+No,XGBoost Base,"base XGBClassifier; random_state=42",0.6139682540,0.5785453898,0.3503894389,0.3768048470,0.1875,3.5656768130,0.0074513951
+Yes,Optimised LightGBM,"n_estimators=300; learning_rate=0.05; num_leaves=31; max_depth=10; min_child_samples=30; subsample=0.90; colsample_bytree=0.90; reg_alpha=0.10; reg_lambda=1.00; moderate clinical class weights; random_state=42",0.6642176871,0.5213587399,0.5156172737,0.5179927804,0.25,3.9082485270,0.0574343893
