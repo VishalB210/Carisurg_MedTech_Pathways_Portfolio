@@ -1,14 +1,17 @@
-# Data Folder
+# Governed Data Location
 
-This folder is reserved for the emergency triage dataset used in the CariSurg MedTech Pathways Programme assignments.
+Patient-level emergency-department data is intentionally excluded from this public repository.
 
-Dataset files are not included in this repository. To run the notebooks, place the required dataset file in this folder locally, or upload the dataset directly when using Google Colab.
-
-Expected local structure:
+The final reproducible pipeline expects the cleaned modelling dataset at:
 
 ```text
-data/
-└── EmergencyTriageDataset_Reduced_Dirty.csv
+data/data_cleaned_week5.csv
 ```
 
-Cleaned datasets generated during notebook execution should be saved locally or exported as needed, but they are not required to be stored in this repository.
+Some historical exploratory notebooks may refer to the original programme file:
+
+```text
+data/EmergencyTriageDataset_Reduced_Dirty.csv
+```
+
+Both files must remain local or in an approved governed storage location. Do not commit, redistribute, or expose them through the public repository. The root `.gitignore` blocks common data formats in this directory.
