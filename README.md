@@ -33,7 +33,7 @@ Carisurg_MedTech_Pathways_Portfolio/
 
 ## New-hire quick start
 
-Python 3.10 or later is recommended.
+Python 3.11 or later is recommended.
 
 ```bash
 git clone https://github.com/VishalB210/Carisurg_MedTech_Pathways_Portfolio.git
