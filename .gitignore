@@ -1,16 +1,29 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+.pytest_cache/
 .env
-.venv
+.venv/
 venv/
 
-# Jupyter Notebook
+# Jupyter
 .ipynb_checkpoints/
 
-# Data outputs
+# Private and governed data
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.parquet
+data/*.feather
+data/*.pkl
+data/*.pickle
+
+# Generated models and outputs
+artifacts/*
+outputs/*
+*.joblib
+
+# Logs and temporary files
 *.log
 
 # Operating system files
